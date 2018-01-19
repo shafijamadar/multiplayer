@@ -63,22 +63,47 @@
     <version>3.4.0</version>
 </dependency>
 
-
+<!--  POI  -->
+	<dependency>
+		<groupId>org.apache.poi</groupId>
+		<artifactId>poi</artifactId>
+		<version>3.6</version>
+	</dependency>
+	<dependency>
+		<groupId>org.apache.poi</groupId>
+		<artifactId>poi-ooxml</artifactId>
+		<version>3.6</version>
+	</dependency>
+	<dependency>
+		<groupId>org.apache.poi</groupId>
+		<artifactId>poi-ooxml-schemas</artifactId>
+		<version>3.6</version>
+	</dependency>
+	<dependency>
+		<groupId>dom4j</groupId>
+		<artifactId>dom4j</artifactId>
+		<version>1.1</version>
+	</dependency>
 <dependency>
-<groupId>org.apache.poi</groupId>
-<artifactId>poi</artifactId>
-<version>3.14</version>
+	<groupId>org.apache.poi</groupId>
+	<artifactId>poi</artifactId>
+	<version>3.14</version>
 </dependency>
 <dependency>
-<groupId>org.testng</groupId>
-<artifactId>testng</artifactId>
-<version>6.9.10</version>
+	<groupId>org.testng</groupId>
+	<artifactId>testng</artifactId>
+	<version>6.9.10</version>
 </dependency>
-
+<!-- https://mvnrepository.com/artifact/com.relevantcodes/extentreports -->
 <dependency>
-<groupId>org.apache.logging.log4j</groupId>
-<artifactId>log4j-api</artifactId>
-<version>2.7</version>
+    <groupId>com.relevantcodes</groupId>
+    <artifactId>extentreports</artifactId>
+    <version>2.41.2</version>
+</dependency>
+<dependency>
+	<groupId>org.apache.logging.log4j</groupId>
+	<artifactId>log4j-api</artifactId>
+	<version>2.7</version>
 </dependency>
 <!-- <dependency>
 <groupId>org.apache.logging.log4j</groupId>
